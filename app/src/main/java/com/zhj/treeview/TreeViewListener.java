@@ -13,5 +13,7 @@ import com.zhj.treeview.resolution1.viewbinder.BaseViewHolder;
 public interface TreeViewListener {
     void onItemClick(BaseViewHolder holder, TreeNode node, int position);
 
+
+
     void afterToggle(View view, boolean isOpen);
 }
